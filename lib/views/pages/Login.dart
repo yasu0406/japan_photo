@@ -53,6 +53,7 @@ class _LoginPageState extends State<LoginPage> {
                       children: <Widget>[
                         SizedBox(
                           width: 300,
+                          height: 55,
                           child: RaisedButton(
                             shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(12.0)
@@ -64,19 +65,23 @@ class _LoginPageState extends State<LoginPage> {
                                 new MaterialPageRoute(builder: (context) => new SignUpAndInPage()),
                               );
                             },
-                            child: const Text('EMAIL', style: TextStyle(fontSize: 20)),
-                            color: Colors.amber,
+                            child: const Text('EMAIL', style: TextStyle(fontSize: 20, color: Colors.white, fontWeight: FontWeight.bold)),
+                            color: Color.fromRGBO(58, 204, 225, 1),
                           ),
                         ),
                         SizedBox(
+                          height: 15,
+                        ),
+                        SizedBox(
                           width: 300,
+                          height: 55,
                           child: RaisedButton(
                             shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(12.0)
                             ),
                             onPressed: () {},
-                            child: const Text('FACEBOOK', style: TextStyle(fontSize: 20)),
-                            color: Colors.amber,
+                            child: const Text('FACEBOOK', style: TextStyle(fontSize: 20, color: Colors.white, fontWeight: FontWeight.bold)),
+                            color: Color.fromRGBO(53, 58, 80, 1),
                           ),
                         ),
                       ],
