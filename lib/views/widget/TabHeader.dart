@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import './SignInTab.dart';
-import './SignUpTab.dart';
+import '../pages/SignInTab.dart';
+import '../pages/SignUpTab.dart';
 
 class TabHeader extends StatefulWidget {
   @override
